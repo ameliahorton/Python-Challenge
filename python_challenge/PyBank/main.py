@@ -1,6 +1,5 @@
 import os
 import csv
-import docx
 
 budget_data = os.path.join("Resources", "budget_data.csv")
 
@@ -33,7 +32,3 @@ min_index=change.index(min(change))
 
 print("Greatest increase in profits: " , profit_data[max_index+2][0], change[max_index])
 print("Greatest decrease in profits: " , profit_data[min_index+2][0], change[min_index])
-
- = os.path.join(.. , "analysis" , "PyBank_results")
-with open('PyBank_results.docx', 'w') as f:
-    f.write('PyBank_results')
